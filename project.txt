@@ -1,0 +1,84 @@
+AI-Powered Blog Title & Idea Generator
+1. Overview
+
+A website where users can input a topic/keyword (e.g., "Fitness") and the app generates catchy blog titles or content ideas using an AI API (like OpenAI API or free alternatives).
+
+This project helps you practice React + API integration + modern UI/UX, which is exactly what’s trending.
+
+2. Core Features (Must Have)
+
+Input Field
+
+User types a keyword/topic (e.g., "Healthy Food").
+
+AI Generation
+
+When user clicks Generate, the app calls the AI API and fetches blog title/ideas.
+
+Display Results
+
+Show a list of 3–5 AI-generated titles/ideas dynamically.
+
+Copy to Clipboard
+
+Each result has a "Copy" button for easy use.
+
+3. Optional Features (Nice to Have)
+
+Dark/Light Mode Toggle 🌙☀️
+
+Save Favorites – Store selected titles in local storage.
+
+Multiple Modes – Choose "Blog Title", "YouTube Video Title", "Tweet Idea".
+
+Loading Animation while waiting for AI response.
+
+Responsive Layout for mobile & desktop.
+
+4. Technical Requirements
+
+Frontend: React (hooks like useState, useEffect)
+
+Styling: CSS or TailwindCSS (for modern UI)
+
+AI Integration:
+
+Use OpenAI API (if you create a free key)
+
+OR use free APIs like HuggingFace Inference API (text generation models).
+
+5. Component Structure (Suggested)
+src/
+ ├── components/
+ │    ├── Navbar.js
+ │    ├── InputForm.js
+ │    ├── ResultList.js
+ │    ├── ResultCard.js
+ ├── App.js
+ ├── index.js
+ └── App.css
+
+6. User Stories
+
+✅ As a user, I want to enter a topic and generate ideas instantly.
+
+✅ As a user, I want to see multiple AI-generated results at once.
+
+✅ As a user, I want to copy ideas easily to use elsewhere.
+
+✅ As a user, I want a modern UI that feels trendy.
+
+7. UI Requirements
+
+Navbar with app name (e.g., AI IdeaGen).
+
+Input Box + Generate Button in the center.
+
+Results Section with cards showing AI responses.
+
+Copy Button with hover effect.
+
+Responsive grid layout.
+
+
+
